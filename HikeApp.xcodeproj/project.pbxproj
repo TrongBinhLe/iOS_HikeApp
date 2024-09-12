@@ -20,6 +20,7 @@
 		848820D72C89BB34009EEB92 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848820D62C89BB34009EEB92 /* MotionAnimationView.swift */; };
 		84F087B22C92B32C00187E80 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F087B12C92B32C00187E80 /* SettingsView.swift */; };
 		84F087B42C92EA6A00187E80 /* CustomeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F087B32C92EA6A00187E80 /* CustomeListRowView.swift */; };
+		84F087B62C92FE6800187E80 /* Note-App.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84F087B52C92FE6800187E80 /* Note-App.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		848820D62C89BB34009EEB92 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		84F087B12C92B32C00187E80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		84F087B32C92EA6A00187E80 /* CustomeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeListRowView.swift; sourceTree = "<group>"; };
+		84F087B52C92FE6800187E80 /* Note-App.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Note-App.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		842766B62C8960F80095C378 /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				84F087B52C92FE6800187E80 /* Note-App.rtf */,
 				848820CD2C898B3A009EEB92 /* Utility */,
 				842766B72C8960F80095C378 /* HikeAppApp.swift */,
 				84F087B02C92B2F700187E80 /* Screens */,
@@ -178,6 +181,7 @@
 			files = (
 				842766BF2C8960FA0095C378 /* Preview Assets.xcassets in Resources */,
 				842766BC2C8960FA0095C378 /* Assets.xcassets in Resources */,
+				84F087B62C92FE6800187E80 /* Note-App.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Map AppIcon-MagnifyingGlass AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -272,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Map AppIcon-MagnifyingGlass AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -327,8 +333,11 @@
 		842766C32C8960FA0095C378 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Map";
+				"ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES[sdk=*]" = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
@@ -356,8 +365,10 @@
 		842766C42C8960FA0095C378 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Map";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HikeApp/Preview Content\"";
